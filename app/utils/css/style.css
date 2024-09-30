@@ -1,0 +1,21 @@
+/* Sidebar toggle visibility on mobile */
+@media (max-width: 767px) {
+    .ant-layout-sider {
+      display: none;
+    }
+  
+    .ant-layout-sider.ant-layout-sider-collapsed {
+      display: block;
+    }
+}
+
+/* Sidebar toggle visibility */
+.sidebar-toggle {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .sidebar-toggle {
+        display: block;
+    }
+}
